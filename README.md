@@ -1,8 +1,30 @@
-# React + Vite
+# TemperatureConverter
+TemperatureConter: This Project shows the weather condition of a searched location and the forecast of the next five days.... it visualize the location's windspeed, humidity, pressure and temperature graph
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
+Clone or download this repository and run with a local server of open `index.html` with your favorite browser
 
-Currently, two official plugins are available:
+## Prequisite
+- Your browser version must be recent for a better experience.
+## Features
+- Search Page
+- Weather Page
+## Tech/framework used
+- HTML
+- CSS
+- ReactJS
+- Vite
+## Preview
+[veiw](https://temperature-converter-wai1.vercel.app/)
+![screenShoot](./src/Component/media/Capture.PNG)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screenshoot](./src//Component//media//snip2.PNG)
+
+## Contact
+
+If you want to contact me you can reach me at
+-daudyusph05@gmail.com -https://github.com/amuda
+
+## Addtional Info
+- This is one of the series of project for the @Codevillage Programming Lessons.
+- This is not meant for production. It's for learning purpose only

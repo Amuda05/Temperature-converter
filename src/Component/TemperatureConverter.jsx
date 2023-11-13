@@ -9,11 +9,11 @@ const [from, setFrom] = useState("")
 
 const handleSubmit = () => {
   console.log(to=="celcius" && from=="fahraheit" )
-      if(from=="fahraheit" && to=="celcius"){
+      if(from=="celcius" && to=="fahraheit"){
         celciusToFaraheint(number)
       }
 
-      if(from=="celcius" && to=="fahraheit"){
+      if(from=="fahraheit" && to=="celcius"){
         faraheitToCelcius(number)
       }
 
@@ -37,12 +37,14 @@ const handleSubmit = () => {
 
     const faraheitToCelcius = (value) => {
       const converted = (value - 32) *5/9;
+
         setResult(converted || '')
     } 
 
     const celciusToFaraheint = (value) => {
       const converted = (value * 9) /5 - 32;
-      setResult(converted || '')
+
+      setResult(converted)
     } 
 
     const kelvinTOCelcius = (value) => {
@@ -99,7 +101,7 @@ const handleSubmit = () => {
 
       <button className='con' onClick={() => handleSubmit()}>Convert</button>
       </div>
-      <p>Result {result}</p>
+      <p>Result {parseInt(result)}</p>
     </div>
     </>
   )
