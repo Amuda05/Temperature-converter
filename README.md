@@ -16,8 +16,8 @@ Clone or download this repository and run with a local server of open `index.htm
 - Vite
 ## Preview
 [veiw](https://temperature-converter-wai1.vercel.app/)
-![screenshot](./src/Component/Capture.PNG)
-![screenshot](./src/Component/snip2.PNG)
+![screenshot](./src/Component/img.PNG)
+![screenshot](./src/Component/snip.PNG)
 
 ## Contact
 
